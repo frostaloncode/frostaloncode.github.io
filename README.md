@@ -1,1 +1,1 @@
-[Sinan UYĞUN : Personel Web Site](https://sinanuygun7.github.io/)
+[frosTalon Code : Personel Web Site](https://frostaloncode.github.io/)
