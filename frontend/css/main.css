@@ -11874,104 +11874,112 @@ textarea.form-control-lg {
   font-weight: normal;
   font-style: italic;
 }
+[data-bs-theme=dark] {
+  --bs-body-bg: $black;
+  --bs-body-color: $red;
+  --bs-primary: $turquoise;
+  --bs-secondary: $red;
+  --bs-border-color: $navyblue;
+}
+
 h1 {
-  color: orange !important;
+  color: #38b6ff !important;
   font-family: "DancingScript", sans-serif !important;
 }
 
 h2 {
-  color: orange !important;
+  color: #38b6ff !important;
   font-family: "DancingScript", sans-serif;
 }
 
 h4 {
-  color: orange !important;
+  color: #38b6ff !important;
   font-family: "RobotoFlex", sans-serif;
 }
 
 label {
-  color: orange !important;
+  color: #bf0707 !important;
   font-family: "RobotoFlex", sans-serif;
 }
 
 ul li {
-  color: orange;
+  color: #bf0707;
 }
 
 .card {
-  background-color: #212529;
+  background-color: #38b6ff;
   border-radius: 10px;
-  border: 1px solid darkorange !important;
+  border: 1px solid #011d3b !important;
 }
 .card .card-title {
   font-size: 1.5rem;
-  color: orange;
+  color: #bf0707;
 }
 .card .card-body {
   padding: 1.5rem;
 }
 
 .custom-button {
-  background-color: orange;
-  color: #212529;
-  border: 2px solid darkorange;
+  background-color: #38b6ff;
+  color: #bf0707;
+  border: 2px solid #011d3b;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .custom-button:hover {
-  background-color: orange;
-  border-color: darkorange;
+  background-color: #011d3b;
+  border-color: #011d3b;
 }
 .custom-button:active {
-  background-color: darkorange;
-  border-color: #212529;
+  background-color: #011d3b;
+  border-color: #011d3b;
 }
 .custom-button:disabled {
-  background-color: darkorange;
-  border-color: darkorange;
-  color: #212529;
+  background-color: #bf0707;
+  border-color: #38b6ff;
+  color: #011d3b;
   cursor: not-allowed;
   opacity: 0.7;
 }
 
 .nav-tabs {
-  border-bottom: 2px solid darkorange;
-  background-color: #212529;
+  border-bottom: 2px solid #011d3b;
+  background-color: #011d3b;
 }
 .nav-tabs .nav-link {
-  color: orange;
-  background-color: #212529;
+  color: #bf0707;
+  background-color: #38b6ff;
   font-family: "RobotoFlex", sans-serif;
   font-weight: bold;
 }
 .nav-tabs .nav-link:hover {
-  color: #212529;
-  background-color: darkorange;
-  border: 2px solid #212529;
+  color: #bf0707;
+  background-color: #011d3b;
+  border: 2px solid #011d3b;
 }
 .nav-tabs .nav-link.active {
-  color: #212529 !important;
-  background-color: orange !important;
-  border-color: darkorange !important;
-  border: 2px solid #212529;
+  color: #38b6ff !important;
+  background-color: #bf0707 !important;
+  border-color: #011d3b !important;
+  border: 2px solid #011d3b;
   border-radius: 5px;
 }
 .nav-tabs .nav-link:disabled {
-  color: orange;
-  background-color: #212529;
+  color: #011d3b;
+  background-color: #bf0707;
   pointer-events: none;
-  border: 2px solid darkorange;
+  border: 2px solid #bf0707;
 }
 
 .nav-tabs {
-  border-bottom: 3px solid darkorange;
+  border-bottom: 3px solid #011d3b;
 }
 
 .navbar {
-  background-color: orange !important;
-  border-color: darkorange !important;
-  color: #212529 !important;
+  background-color: #38b6ff !important;
+  border-color: #011d3b !important;
+  color: #bf0707 !important;
 }
 .navbar .navbar-collapse {
   display: flex;
@@ -11979,32 +11987,32 @@ ul li {
   align-items: center;
 }
 .navbar .nav-link {
-  color: #212529;
+  color: #011d3b;
   font-family: "RobotoFlex", sans-serif;
   font-weight: normal;
 }
 .navbar .navbar-brand {
-  color: #212529;
+  color: #011d3b;
   font-family: "DancingScript", sans-serif;
   font-weight: bold;
 }
 
-.custom-btn-orange {
-  background-color: orange !important;
-  border-color: darkorange !important;
-  color: black !important;
+.custom-bg-talon {
+  background-color: #1a1a1a !important;
+  border-color: #011d3b !important;
+  color: #38b6ff !important;
 }
 
-.custom-bg-body-orange {
-  background-color: orange !important;
-  border-color: darkorange !important;
-  color: black !important;
+.custom-btn-talon {
+  background-color: #38b6ff !important;
+  border-color: #011d3b !important;
+  color: #bf0707 !important;
 }
 
-.custom-bg-body-black {
-  background-color: #212529 !important;
-  border-color: black !important;
-  color: orange !important;
+.custom-bg-body-talon {
+  background-color: #bf0707 !important;
+  border-color: #011d3b !important;
+  color: #38b6ff !important;
 }
 
 .custom-text {
