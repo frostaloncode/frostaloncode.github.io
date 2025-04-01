@@ -1,0 +1,327 @@
+
+
+
+$turquoise: #5ce1e6;
+$red: #ff3131;
+$white: #F8EDED;
+$perl: #F7F7F7;
+$navyblue : #173B45;
+$black: #070F2B;
+
+
+$font-dancingscript: 'DancingScript', sans-serif;
+$font-robotoflex: 'RobotoFlex', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$font-mokoto: 'Mokoto', sans-serif;
+
+[data-bs-theme="dark"] {
+    --bs-body-bg: $navyblue;
+    --bs-body-color: $red;
+    --bs-primary: $turquoise;
+    --bs-secondary: $red; 
+    --bs-border-color: $black; 
+}
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: $perl !important;
+    font-family: $font-robotoflex !important;
+}
+h2{
+    color: $turquoise !important;
+    font-family: $font-dancingscript;
+}
+h4{
+    color: $turquoise !important;
+    font-family: $font-robotoflex;
+}
+
+label{
+    color: $red !important;
+    font-family: $font-robotoflex;
+}
+
+ul{
+    li{
+        color: $red;
+    }
+}
+
+.ft-dropdown-menu {
+    background-color: $turquoise; 
+    color: $red;  
+    
+    li > a {
+      color: $black; 
+      
+      &:hover {
+        background-color: $red;  
+        color: $black; 
+      }
+    }
+}
+  
+
+.dropdown-toggle {
+    background-color: $navyblue;  
+    color: $perl;  
+    border: 4px solid $black;  
+  
+    &:hover {
+      background-color: $black;  
+    }
+}
+
+.dropdown-item {
+    background-color: $turquoise !important;
+    color: $black !important;  
+    
+    &:hover {
+      background-color: $red; 
+      color: $black; 
+    }
+}
+
+
+.ft-modal {
+    .modal-content {
+      background: $navyblue;
+      border-radius: 8px;
+      border: 1px solid $black;
+    }
+  
+    .modal-header {
+      background: $navyblue;
+      color: $red;
+      border-bottom: 1px solid $black;
+    }
+  
+    .modal-footer {
+      background: $navyblue;
+      border-top: 1px solid $black;
+    }
+  
+    .modal-body {
+      color: $perl;
+    }
+  
+    .btn-close {
+      filter: invert(1); 
+    }
+  }
+
+.card{
+    background-color: $turquoise;
+    border-radius: 10px;
+    border: 1px solid $navyblue !important;
+    width: 75vw;
+    height: 15vh;
+    align-items: center;
+    text-align: center;
+  
+    .card-title {
+      font-size: 1.5rem;
+      color: $red
+    }
+  
+    .card-body {
+      padding: 1.5rem;
+
+    }
+}
+
+.nav-tabs{
+    border-bottom: 2px solid $black;
+    background-color: $black;
+    width: 80vw;
+
+    .nav-link{
+        color: $perl;
+        background-color: $black;
+        border-color: $black;
+        font-family: $font-robotoflex;
+        font-weight: bold;
+
+        &:hover {
+            color: $black;
+            background-color: $red;
+            border: 2px solid $black;
+        }
+        &.active {
+            color: $black !important;
+            background-color: $turquoise !important;
+            border-color: $red !important;
+            border: 2px solid $black;
+            border-radius: 5px;
+        }
+        &:disabled {
+            color: $navyblue;
+            background-color: $red;
+            pointer-events: none;
+            border: 2px solid $red;
+        }
+    }
+}
+
+.nav-tabs{
+    border-bottom: 3px solid $black;
+    background-color: transparent;
+    width: 80vw;
+}
+
+.navbar{
+    background-color: $navyblue !important; ;
+    border-color: $black !important; ;
+    color: $white !important; ;
+
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-link{
+        color: $white;
+        font-family: $font-robotoflex;
+        font-weight: normal;
+    }
+    .navbar-brand {
+        color: $white;
+        font-family: $font-dancingscript;
+        font-weight: bold;
+    }
+}
+  
+.ft-theme{
+    background-color: $navyblue !important;
+    border-color: $black !important;
+    color: $white !important;
+}
+
+.ft-p{
+    text-align: center;
+    width: 50vw;
+    .ft-title{
+        font-size: 32px;
+        font-weight: bold;
+        color: $white;
+    }
+    .ft-text{
+        font-size: 18px;
+        color: $white;
+        line-height: 1.6;
+        margin-top: 10px;
+    }
+}
+
+.ft-nav-button {
+    background-color: $navyblue;
+    color: $perl;
+    border: 2px solid $navyblue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: $black; 
+        border-color: $black; 
+        color: $red;
+    }
+    &:active {
+        background-color: $navyblue;
+        border-color: $navyblue; 
+        color: $red;
+    }
+    &:disabled {
+        background-color: $turquoise; 
+        border-color: $black; 
+        color: $white; 
+        cursor: not-allowed; 
+        opacity: 0.7; 
+    }
+}
+
+.ft-button{
+    background-color: $turquoise;
+    color: $perl;
+    border: 2px solid $turquoise;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        background-color: $red; 
+        border-color: $red; 
+        color: $perl;
+    }
+    &:active {
+        background-color: $red;
+        border-color: $red; 
+        color: $perl;
+    }
+    &:disabled {
+        background-color: $black; 
+        border-color: $black; 
+        color: $perl; 
+        cursor: not-allowed; 
+        opacity: 0.7; 
+    }
+}
+
+.ft-body-home{
+    background-image: url('../assets/image/home-bg.png');
+}
+
+.ft-body-about{
+    background-image: url('../assets/image/about-bg.png');
+}
+
+.fg-body-experience{
+    background-image: url('../assets/image/experience-bg.png');
+}
+
+.fg-body-contact{
+    background-image: url('../assets/image/contact-bg.png');
+}
+
+.ft-row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.ft-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    text-align: center;  
+}
+
+.ft-image{
+    width: 25vw;
+    max-width: 250px;
+    min-width: 120px;
+    height: 25vh;
+    min-height: 120px;
+    max-height: 250px;
+    margin-right: 10px;
+}
+
+.ft-nav-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    width: 80vw;
+}
+
+.ft-nav-row-color{
+    background-color: $navyblue;
+}
