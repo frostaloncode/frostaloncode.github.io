@@ -27,6 +27,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-clip: content-box;
 }
 
 h1{
@@ -114,27 +115,29 @@ ul{
     .btn-close {
       filter: invert(1); 
     }
-  }
+}
 
-.card{
+.card {
     background-color: $turquoise;
     border-radius: 10px;
     border: 1px solid $navyblue !important;
     width: 75vw;
     height: 15vh;
-    align-items: center;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;  
+    align-items: center; 
+    padding: 0 1rem; 
   
     .card-title {
       font-size: 1.5rem;
-      color: $red
+      color: $red;
     }
   
     .card-body {
       padding: 1.5rem;
-
     }
-}
+  }
+  
 
 .nav-tabs{
     border-bottom: 2px solid $black;
@@ -274,18 +277,26 @@ ul{
 
 .ft-body-home{
     background-image: url('../assets/image/home-bg.png');
+    width: 100vw;
+    height: 100vh;
 }
 
 .ft-body-about{
     background-image: url('../assets/image/about-bg.png');
+    width: 100vw;
+    height: 100vh;
 }
 
 .fg-body-experience{
     background-image: url('../assets/image/experience-bg.png');
+    width: 100vw;
+    height: 100vh;
 }
 
 .fg-body-contact{
     background-image: url('../assets/image/contact-bg.png');
+    width: 100vw;
+    height: 100vh;
 }
 
 .ft-row{
@@ -293,13 +304,16 @@ ul{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center; 
+    text-align: center; 
+    justify-content: space-evenly;
 }
 
 .ft-column{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;  
-    text-align: center;  
+    text-align: center;
 }
 
 .ft-image{

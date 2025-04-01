@@ -11911,6 +11911,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-clip: content-box;
 }
 
 h1 {
@@ -11994,8 +11995,10 @@ ul li {
   border: 1px solid #173B45 !important;
   width: 75vw;
   height: 15vh;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  text-align: center;
+  padding: 0 1rem;
 }
 .card .card-title {
   font-size: 1.5rem;
@@ -12139,18 +12142,26 @@ ul li {
 
 .ft-body-home {
   background-image: url("../assets/image/home-bg.png");
+  width: 100vw;
+  height: 100vh;
 }
 
 .ft-body-about {
   background-image: url("../assets/image/about-bg.png");
+  width: 100vw;
+  height: 100vh;
 }
 
 .fg-body-experience {
   background-image: url("../assets/image/experience-bg.png");
+  width: 100vw;
+  height: 100vh;
 }
 
 .fg-body-contact {
   background-image: url("../assets/image/contact-bg.png");
+  width: 100vw;
+  height: 100vh;
 }
 
 .ft-row {
@@ -12158,10 +12169,13 @@ ul li {
   flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 .ft-column {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   text-align: center;
