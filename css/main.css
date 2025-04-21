@@ -11949,6 +11949,14 @@ label {
   font-style: italic;
 }
 
+.signature {
+  color: #F7F7F7 !important;
+  font-family: "DancingScript", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: italic;
+}
+
 ul {
   text-align: center;
 }
@@ -12098,8 +12106,12 @@ pre {
   font-weight: normal;
 }
 .navbar .navbar-brand {
-  color: #F8EDED;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #F7F7F7;
   font-family: "DancingScript", sans-serif;
+  font-size: x-large;
   font-weight: bold;
 }
 
@@ -12311,4 +12323,92 @@ pre {
   text-align: start;
   position: relative;
   display: inline-block;
+}
+
+.nav-button {
+  position: relative;
+  font-size: 1.2em;
+  padding: 0.7em 1.4em;
+  background-color: #C80036;
+  text-decoration: none;
+  border: none;
+  border-radius: 0.5em;
+  color: #F7F7F7;
+  box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+.nav-button:before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, rgb(33, 33, 33) 0%, rgb(33, 33, 33) 50%, rgb(150, 4, 31) 50%, rgb(191, 4, 38) 60%);
+  border-radius: 0 0 0.5em 0;
+  box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+.nav-button:hover::before {
+  width: 1.6em;
+  height: 1.6em;
+}
+.nav-button:active {
+  box-shadow: 0.2em 0.2em 0.3em rgba(0, 0, 0, 0.3);
+  transform: translate(0.1em, 0.1em);
+}
+
+.cv-btn {
+  --color: #5ce1e6;
+  --color2: #173B45;
+  padding: 0.8em 1.75em;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 0.3px solid var(--color);
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 1;
+  font-weight: 300;
+  font-size: 17px;
+  font-family: "Roboto", "Segoe UI", sans-serif;
+  text-transform: uppercase;
+  color: var(--color);
+}
+
+.cv-btn::after, .cv-btn::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  transform: skew(90deg) translate(-50%, -50%);
+  position: absolute;
+  inset: 50%;
+  left: 25%;
+  z-index: -1;
+  transition: 0.5s ease-out;
+  background-color: var(--color);
+}
+
+.cv-btn::before {
+  top: -50%;
+  left: -25%;
+  transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.cv-btn:hover::before {
+  transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+}
+
+.cv-btn:hover::after {
+  transform: skew(45deg) translate(-50%, -50%);
+}
+
+.cv-btn:hover {
+  color: var(--color2);
+}
+
+.cv-btn:active {
+  filter: brightness(0.7);
+  transform: scale(0.98);
 }
