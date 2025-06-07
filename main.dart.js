@@ -85084,7 +85084,7 @@ return A.pI(new A.is(m),l,A.pZ(A.eb(new A.c8(new A.aB(16,0,16,0),A.eC(A.a([k,j,n
 A.ae9.prototype={
 $0(){var s=0,r=A.T(t.H),q
 var $async$$0=A.U(function(a,b){if(a===1)return A.Q(b,r)
-while(true)switch(s){case 0:q=window.open("assets/assets/doc/cv-tr","_blank")
+while(true)switch(s){case 0:q=window.open("assets/doc/cv-tr.pdf","_blank")
 A.aPO(q)
 return A.R(null,r)}})
 return A.S($async$$0,r)},
