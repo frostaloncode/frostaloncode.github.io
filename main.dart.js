@@ -85094,7 +85094,7 @@ A.ae9.prototype={
 $0(){var s=0,r=A.T(t.H),q,p
 var $async$$0=A.U(function(a,b){if(a===1)return A.Q(b,r)
 while(true)switch(s){case 0:q=B.Vz.gzd(window.location)
-p=window.open(q+"/assets/doc/cv-tr.pdf","_blank")
+p=window.open(q+"/assets/assets/doc/cv-tr.pdf","_blank")
 A.aPO(p)
 return A.R(null,r)}})
 return A.S($async$$0,r)},
