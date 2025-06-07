@@ -85063,7 +85063,7 @@ if(r!=null)r.J(0,s.gej())
 s.b3$=null
 s.aU()}}
 A.to.prototype={
-N(a){var s,r,q,p,o,n,m=null,l=A.a7(4279116585),k=A.bf(m,36,m),j=A.m3("assets/image/icon/logo.png",m,m,m),i=t.d
+N(a){var s,r,q,p,o,n,m=null,l=A.a7(4279116585),k=A.bf(m,36,m),j=A.m3("assets/assets/image/icon/logo.png",m,m,m),i=t.d
 A.aE(a,B.q,i).toString
 s=t.f
 r=A.aU("Computer Engineer",m,"homepage_text_title",A.a([],s),m)
