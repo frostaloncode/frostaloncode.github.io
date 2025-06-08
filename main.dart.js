@@ -84998,19 +84998,19 @@ A.ae2.prototype={
 $0(){return this.a.ln("https://www.linkedin.com/in/sinanuygun/")},
 $S:0}
 A.ae3.prototype={
-$0(){return this.a.ln("https://github.com/frostaloncode")},
+$0(){return this.a.ln("https://github.com/sinanatlasuygun")},
 $S:0}
 A.ae4.prototype={
-$0(){return this.a.ln("https://gitlab.com/frosTalon")},
+$0(){return this.a.ln("https://gitlab.com/sinanatlasuygun")},
 $S:0}
 A.ae5.prototype={
-$0(){return this.a.ln("https://bsky.app/profile/frostalon.bsky.social")},
+$0(){return this.a.ln("https://bsky.app/profile/sinanatlasuygun.bsky.social")},
 $S:0}
 A.ae6.prototype={
-$0(){return this.a.ln("https://www.instagram.com/frostalonofficial/")},
+$0(){return this.a.ln("https://www.instagram.com/atlassoftwareofficial/")},
 $S:0}
 A.ae7.prototype={
-$0(){return this.a.ln("https://www.youtube.com/@frosTalonsoftware")},
+$0(){return this.a.ln("https://www.youtube.com/@atlassoftware")},
 $S:0}
 A.ae8.prototype={
 $0(){this.a.$0()},
